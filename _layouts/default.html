@@ -10,5 +10,18 @@
     <section>
       {{ content }}
     </section>
+    <section>
+      <input id="clue-box" type="text"/>
+      <input id="clue-button" type="button"/>
+    </section>
+    <script>
+      const cluebox = document.getElementById("clue-box");
+      function goToClue() {
+        window.location = "latentsage/" + cluebox.value;
+      }
+      const cluebutton = document.getElementById("clue-button");
+
+      cluebutton.addEventListener("click", goToClue, false);
+    </script>
   </body>
 </html>
