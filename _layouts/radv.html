@@ -1,15 +1,35 @@
----
-layout: default
----
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+English+SC&family=UnifrakturMaguntia&display=swap" rel="stylesheet"> 
-
-<style>
-    body {
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=IM+Fell+English&family=IM+Fell+English+SC&family=Love+Light&family=UnifrakturMaguntia&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <style>
+      body {
         font-family: 'Love Light', cursive;
-    }
-</style>
+      }
+  </style>
+  <body>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <section>
+      <input id="clue-box" type="text"/>
+      <input id="clue-button" type="button" value="Enter">
+    </section>
+    <script>
+      const cluebox = document.getElementById("clue-box");
+      function goToClue() {
+        window.location = cluebox.value;
+      }
+      const cluebutton = document.getElementById("clue-button");
 
-
-{{ content }}
+      cluebutton.addEventListener("click", goToClue, false);
+    </script>
+  </body>
+</html>

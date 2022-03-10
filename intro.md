@@ -1,5 +1,5 @@
 ---
-layout: radv
+layout: boringv
 title:  "Intro"
 date:   2022-03-09 17:44:05 -0800
 categories: jekyll mystery
