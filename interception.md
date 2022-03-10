@@ -17,7 +17,7 @@ So we're to get to know each other? We're going to have such fun!
 
 If you can keep up that is. Do you think you can do that?
 
-If so, I'll meet you somewhere more intimately.
+If so, I'll meet you somewhere more intimate.
 
 Villainously,
 -- V
