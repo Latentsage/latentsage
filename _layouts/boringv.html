@@ -5,23 +5,26 @@
     <title>{{ page.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=IM+Fell+English&family=IM+Fell+English+SC&family=Love+Light&family=Parisienne&family=UnifrakturMaguntia&family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Goldman&family=IM+Fell+English+SC&family=Love+Light&family=Parisienne&family=UnifrakturMaguntia&family=Tangerine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <style>
       body {
-        font-family: 'Belgrano', serif;
+        font-family: 'Goldman', cursive;
       }
   </style>
   <body>
-    <section>
-      {{ content }}
-    </section>
-    <section>
-      <input id="clue-box" type="text"/>
-      <br/>
-      <input id="clue-button" type="button" value="Enter">
-    </section>
+    <div class="row">
+        <div class="column">
+            <section class="memo">
+              {{ content }}
+            </section>
+            <section>
+              <input id="clue-box" type="text"/>
+              <input id="clue-button" type="button" value="Enter">
+            </section>
+        </div>
+    </div>
     <script>
       const cluebox = document.getElementById("clue-box");
       function goToClue() {
