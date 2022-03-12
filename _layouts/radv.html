@@ -36,6 +36,11 @@
       const cluebutton = document.getElementById("clue-button");
 
       cluebutton.addEventListener("click", goToClue, false);
+      cluebox.addEventListener("keyup", function (event) {
+        if (event.keyCode == 13) {
+            cluebutton.click();
+        }
+      });
     </script>
   </body>
 </html>

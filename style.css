@@ -26,6 +26,7 @@ body {
 
 .memo {
     background-image: url("paper2.jpg");
+    background-repeat: round;
     padding-right: 1em;
     padding-left: 1em;
     padding-top: 2em;
