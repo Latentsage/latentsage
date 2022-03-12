@@ -7,7 +7,7 @@ categories: jekyll mystery
 
 4/21/2022
 
-Puppy,
+Darlingest Puppy,
 
 Gosh, you're such an energetic little thing.
 
@@ -20,4 +20,5 @@ You'll just have to wait for me to finish what I'm doing and then I can come get
 Be a patient puppy for me.
 
 Viscerally,
+
 -- V
