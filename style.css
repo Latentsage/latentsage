@@ -8,7 +8,8 @@
 }
 
 body {
-    background-image: url("desk.png")
+    background-image: url("desk.png");
+    background-repeat: round;
 }
 
 .row {
@@ -24,14 +25,29 @@ body {
 }
 
 .memo {
-    background-image: url("paper.jpg")
+    background-image: url("paper.jpg");
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.clue-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
 }
 
 #clue-button {
-    width: 20em;
-    height: 3em;
     text-align: center;
-    vertical-align: center;
+    background-color: #F5F5F5;
+    display: inline;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 10%;
 }
 
 @media only screen and (max-width: 600px) {
