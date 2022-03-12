@@ -14,7 +14,7 @@ I'd really like to keep you when all this is done.
 
 To keep you busy, I made a fun crossword for clever puppies like you.
 
-https://crosswordlabs.com/view/puppy-fun-time-distraction
+[link](https://crosswordlabs.com/view/puppy-fun-time-distraction)
 
 You just sit there and play with that while your owner takes care of some things.
 
