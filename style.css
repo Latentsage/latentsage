@@ -50,6 +50,7 @@ body {
     padding-left: 0.5em;
     padding-right: 0.5em;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
