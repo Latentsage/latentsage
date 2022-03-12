@@ -19,7 +19,7 @@
             <section class="memo">
               {{ content }}
             </section>
-            <section>
+            <section class="clue-entry">
               <input id="clue-box" type="text"/>
               <div id="clue-button">
                   Enter
@@ -35,6 +35,11 @@
       const cluebutton = document.getElementById("clue-button");
 
       cluebutton.addEventListener("click", goToClue, false);
+      cluebox.addEventListener("keyup", function (event) {
+        if (event.keyCode == 13) {
+            button.click();
+        }
+      });
     </script>
   </body>
 </html>

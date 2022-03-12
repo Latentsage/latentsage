@@ -5,7 +5,7 @@ date:   2022-03-09 17:44:05 -0800
 categories: jekyll mystery
 ---
 
-Puppy,
+Cutest Puppy,
 
 Ok, I just couldn't resìst. You're so cute when you're running arõund solving mysteries!
 
