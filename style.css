@@ -7,6 +7,10 @@
     font-family: 'Goldman', cursive;
 }
 
+body {
+    background-image: url("desk.png")
+}
+
 .row {
     width: 100%;
     display: flex;
@@ -21,6 +25,13 @@
 
 .memo {
     background-image: url("paper.jpg")
+}
+
+#clue-button {
+    width: 20em;
+    height: 3em;
+    text-align: center;
+    vertical-align: center;
 }
 
 @media only screen and (max-width: 600px) {
